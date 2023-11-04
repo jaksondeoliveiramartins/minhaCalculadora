@@ -1,9 +1,9 @@
 // char => é uma abreviação de caractere,armazenar letras numeros nomes e simbolos.
 
 #include <stdio.h>
-    int main() {
-    char operacao; //  aqui ele vai pegar o operador
-  float numero1 , numero2 , resultado; // aqui ele vai pegar os numeros
+int main() {
+   char operacao; //  aqui ele vai pegar o operador
+   float numero1 , numero2 , resultado; // aqui ele vai pegar os numeros
   printf("Bem vindo á  Calculadora do CS50 Live \n "); // aqui ele vai mostrar o titulo na tela
   printf("Digite o primeiro número: ");
   scanf("%f", &numero1);// aqui ele vai pegar o primeiro numero
